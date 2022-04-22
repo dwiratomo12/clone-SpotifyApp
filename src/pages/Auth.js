@@ -11,7 +11,7 @@ import { login } from "../slice/authSlice";
 export default function Auth() {
   const dispatch = useDispatch();
   const history = useHistory();
-  useDocumentTitle("Auth - Spotipy");
+  useDocumentTitle("Auth - Musicelly");
 
   const setLogin = useCallback(
     async (accessToken, expiresIn) => {
